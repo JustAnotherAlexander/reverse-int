@@ -1,5 +1,5 @@
 module.exports = function reverse (n) {
-  console.log(n);
+
   if (n<0) {
       n=n*-1;
   }
@@ -8,6 +8,6 @@ module.exports = function reverse (n) {
   n.reverse();
 
   n=n.join('');
-  console.log(n);
+
   return n;
 }
